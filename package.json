@@ -1,6 +1,6 @@
 {
   "name": "shared-cookies",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shared cookie parser for Express (4+) and Socket.io (1+).",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/tstrimple/shared-cookies",
   "dependencies": {
-    "generic-cookie-parser": "0.0.2"
+    "generic-cookie-parser": "0.0.1"
   }
 }
