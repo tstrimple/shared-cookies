@@ -1,0 +1,32 @@
+{
+  "name": "shared-cookies",
+  "version": "0.0.1",
+  "description": "Shared cookie parser for Express (4+) and Socket.io (1+).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tstrimple/shared-cookies.git"
+  },
+  "keywords": [
+    "socket.io",
+    "express",
+    "cookies"
+  ],
+  "author": {
+    "name": "Timothy Strimple",
+    "email": "tim@tstrimple.com",
+    "url": "http://tstrimple.com",
+    "twitter": "https://twitter.com/tstrimple"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tstrimple/shared-cookies/issues"
+  },
+  "homepage": "https://github.com/tstrimple/shared-cookies",
+  "dependencies": {
+    "generic-cookie-parser": "0.0.2"
+  }
+}
