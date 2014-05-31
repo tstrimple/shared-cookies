@@ -1,6 +1,6 @@
 {
   "name": "shared-cookies",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Shared cookie parser for Express (4+) and Socket.io (1+).",
   "main": "index.js",
   "scripts": {

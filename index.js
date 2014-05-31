@@ -21,7 +21,7 @@ function parseCookies(parser, cookies, container, callback) {
     }
   }
 
-  next();
+  callback();
 }
 
 module.exports = function createCookieParsers(secret, options) {
