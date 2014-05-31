@@ -1,7 +1,6 @@
 var cookieParser = require('generic-cookie-parser');
 
 function parseCookies(parser, cookies, container, callback) {
-  container.secret = secret;
   container.cookies = {};
   container.signedCookies = {};
 
@@ -33,6 +32,7 @@ module.exports = function createCookieParsers(secret, options) {
         return next();
       }
 
+      req.secret = secret;
       parseCookies(parser, req.headers.cookie, req, function(err) {
         if(err) {
           err.status = 400;
@@ -48,6 +48,7 @@ module.exports = function createCookieParsers(secret, options) {
         return next();
       }
 
+      socket.secret = secret;
       parseCookies(parser, socket.request.headers.cookie, socket, next);
     }
   };
